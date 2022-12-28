@@ -8,6 +8,11 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MenuService } from './services/menu.service';
+import { HttpClientModule } from '@angular/common/http';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatCardModule } from '@angular/material/card';
+
 
 
 @NgModule({
@@ -25,9 +30,12 @@ import { MatFormFieldModule } from '@angular/material/form-field';
       registrationStrategy: 'registerWhenStable:30000'
     }),
     BrowserAnimationsModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    HttpClientModule,
+    MatExpansionModule,
+    MatCardModule
   ],
-  providers: [],
+  providers: [MenuService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,46 @@
+.restaurant-card{
+  padding: 5px;
+  .mat-card-title{
+    padding: 0.5em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}
+
+// .menu-items-container{
+//   max
+// }
+
+.menu-item {
+  overflow: hidden;
+  margin-bottom: 1em;
+  border-bottom: 1px #8080804d solid;
+  padding-bottom: 1em;
+
+  .menu-item-name {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-item-discription {
+    float: left;
+    width: 50%;
+    color: darkgray;
+  }
+
+  img.menu-item-img {
+    float: left;
+    width: 25%;
+  }
+
+  .menu-item-price {
+    float: left;
+    width: 20%;
+    text-align: right;
+    strong{
+      display: block;
+      color: orange;
+    }
+  }
+}

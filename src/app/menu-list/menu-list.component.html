@@ -1,1 +1,41 @@
-<p>menu-list works!</p>
+<mat-card class="restaurant-card mat-elevation-z0">
+  <mat-card-title>Ala Restaurante</mat-card-title>
+  <mat-card-content>
+    <mat-accordion class="menu-headers-align">
+      <mat-expansion-panel *ngFor="let menu of menus">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{menu.name}}
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="menu-items-container">
+          <div class="menu-item" *ngFor="let menuItem of menu.menuItems">
+            <h3 class="menu-item-name">{{menuItem.name}}</h3>
+            <img src="{{menuItem.imageUrl}}" alt="{{menuItem.name}}" class="menu-item-img">
+            <p class="menu-item-discription">{{menuItem.description}}</p>
+            <div class="menu-item-price">
+              <div>AED</div>
+              <strong>{{menuItem.price}}</strong><!-- {{menuItem.price | currency:'AED'}} -->
+            </div>
+          </div>
+          <!-- <mat-card class="menu-item-card mat-elevation-z0" *ngFor="let menuItem of menu.menuItems">
+            <mat-card-header>
+              <mat-card-title>{{menuItem.name}}</mat-card-title>
+              <mat-card-subtitle>{{menuItem.price | currency:'AED'}}</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="{{menuItem.imageUrl}}">
+            <mat-card-content>
+              <p>
+                {{menuItem.description}}
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions>
+          </mat-card> -->
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </mat-card-content>
+</mat-card>
