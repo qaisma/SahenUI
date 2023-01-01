@@ -12,13 +12,15 @@ import { MenuService } from './services/menu.service';
 import { HttpClientModule } from '@angular/common/http';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatCardModule } from '@angular/material/card';
+import { MenuItemComponent } from './menu-item/menu-item.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuListComponent
+    MenuListComponent,
+    MenuItemComponent
   ],
   imports: [
     BrowserModule,

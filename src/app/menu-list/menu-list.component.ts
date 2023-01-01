@@ -29,7 +29,7 @@ export class MenuListComponent implements OnInit {
 
   private _getReatuarantMenus() {
     this._menuService.getMenusByRestuarantId(this.restaurantId).subscribe(menus => {
-      this.menus = menus.filter(m=>m.menuItems&& m.menuItems.length>0);
+      this.menus = menus.filter(m => m.menuItems && m.menuItems.length > 0);
     });
   }
 
@@ -37,4 +37,7 @@ export class MenuListComponent implements OnInit {
     this.menuIndex = index;
   }
 
+  goToMenuItem(menuItem: Menu): void {
+
+  }
 }

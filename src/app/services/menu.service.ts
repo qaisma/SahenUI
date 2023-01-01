@@ -4,9 +4,24 @@ import { environment } from "src/environments/environment";
 import { catchError, Observable, of, tap } from "rxjs";
 import { Menu } from "../models/menu.model";
 import { MessageService } from "./message.service";
+import { sampleData } from "./sample_data";
+import { MenuItem } from "../models/menu-item.model";
 
 @Injectable({ providedIn: 'root' })
 export class MenuService {
+
+    getMenuItem(menuItemId: string): MenuItem {
+        for (let i = 0; i < sampleData.length; i++) {
+            const menu = sampleData[i];
+            for (let j = 0; j < menu.menuItems.length; j++) {
+                const menuItem = menu.menuItems[j];
+                if (menuItem.id == menuItemId) {
+                    return menuItem;
+                }
+            }
+        }
+        return null as any;
+    }
 
     private _menusUrl = '/Menus';
     private _baseUrl = environment.apiUrl;
@@ -22,11 +37,13 @@ export class MenuService {
     }
 
     getMenusByRestuarantId(restaurantId: string): Observable<Menu[]> {
-        return this.http.get<Menu[]>(this._baseUrl + this._menusUrl + '/GetByRestaurantId/' + restaurantId)
-            .pipe(
-                tap(_ => this.log('fetched restaurant menus')),
-                catchError(this.handleError<Menu[]>('getMenusByRestuarantId', []))
-            );
+        return of(sampleData);
+        // // uncomment for production
+        // return this.http.get<Menu[]>(this._baseUrl + this._menusUrl + '/GetByRestaurantId/' + restaurantId)
+        //     .pipe(
+        //         tap(_ => this.log('fetched restaurant menus')),
+        //         catchError(this.handleError<Menu[]>('getMenusByRestuarantId', []))
+        //     );
     }
 
     private handleError<T>(operation = 'operation', result?: T) {
