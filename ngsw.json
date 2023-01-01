@@ -1,0 +1,123 @@
+{
+  "configVersion": 1,
+  "timestamp": 1672591573736,
+  "index": "https://github.com/qaisma/SahenUI/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/qaisma/SahenUI/favicon.ico",
+        "https://github.com/qaisma/SahenUI/index.html",
+        "https://github.com/qaisma/SahenUI/main.8a1c9f4977de4363.js",
+        "https://github.com/qaisma/SahenUI/manifest.webmanifest",
+        "https://github.com/qaisma/SahenUI/polyfills.f25762f496b9ff7d.js",
+        "https://github.com/qaisma/SahenUI/runtime.24dd46ac31f58b74.js",
+        "https://github.com/qaisma/SahenUI/styles.eda5b4d31715e41b.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/qaisma/SahenUI/DubaiW23-Regular.45fe117dfd2e4c30.ttf",
+        "https://github.com/qaisma/SahenUI/assets/backgrounds/bg1.png",
+        "https://github.com/qaisma/SahenUI/assets/backgrounds/bg2.svg",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Bold.eot",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Bold.ttf",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Bold.woff",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Bold.woff2",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Light.eot",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Light.ttf",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Light.woff",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Light.woff2",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Medium.eot",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Medium.ttf",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Medium.woff",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Medium.woff2",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Regular.eot",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Regular.ttf",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Regular.woff",
+        "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Regular.woff2",
+        "https://github.com/qaisma/SahenUI/assets/fonts/fonts.scss",
+        "https://github.com/qaisma/SahenUI/assets/icons/icon-128x128.png",
+        "https://github.com/qaisma/SahenUI/assets/icons/icon-144x144.png",
+        "https://github.com/qaisma/SahenUI/assets/icons/icon-152x152.png",
+        "https://github.com/qaisma/SahenUI/assets/icons/icon-192x192.png",
+        "https://github.com/qaisma/SahenUI/assets/icons/icon-384x384.png",
+        "https://github.com/qaisma/SahenUI/assets/icons/icon-512x512.png",
+        "https://github.com/qaisma/SahenUI/assets/icons/icon-72x72.png",
+        "https://github.com/qaisma/SahenUI/assets/icons/icon-96x96.png",
+        "https://github.com/qaisma/SahenUI/bg2.61d4ace5bcc7f05e.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://github.com/qaisma/SahenUI/DubaiW23-Regular.45fe117dfd2e4c30.ttf": "8af50ff94372ee330df2ef37f91d0e9c0d47c12f",
+    "https://github.com/qaisma/SahenUI/assets/backgrounds/bg1.png": "c09cbbe7737307f54a03a02271522a91f3434bfb",
+    "https://github.com/qaisma/SahenUI/assets/backgrounds/bg2.svg": "e71a9a69282ebdd24b896b1191235bb02bc38d85",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Bold.eot": "437ab1630fa395007b1582d65df1ac65ecb639d5",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Bold.ttf": "5e675fe1a609df79b98f51c90a79408146a42f79",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Bold.woff": "22f52d66c29dfc97718a4fd194e2194d946026fd",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Bold.woff2": "0ac27ec5a0055ea92f99d6912f5fb4559a8c1f33",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Light.eot": "f88c92852c3292235cb24465a2e41d4013484d74",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Light.ttf": "7f04d68b6f19525d0bf7b843cdfac8b7e9468ed9",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Light.woff": "44e32f396f783d520963c139e79ace9da7831ef4",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Light.woff2": "841a708a447288bee271b7790ee27362a159c7e5",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Medium.eot": "5caa683e94f30e4893420c43aeabdd035b006c20",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Medium.ttf": "5dae1f7b7b4773798de1751b6e1606f6e2a6c03b",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Medium.woff": "cb8b848676df6422f521cd1f17b9c186a1708a28",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Medium.woff2": "2f1e4d14aea6ad242bfb09f37d4e9bb4944de667",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Regular.eot": "606632388e49a3db363e8929cc4fdde54ca97f42",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Regular.ttf": "8af50ff94372ee330df2ef37f91d0e9c0d47c12f",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Regular.woff": "1a4fd0ab7ff1f9e25e696b6f608cfd107dc10b44",
+    "https://github.com/qaisma/SahenUI/assets/fonts/dubai_font/DubaiW23-Regular.woff2": "c954ab326bb7d02478e4a11b55bfff93db81af92",
+    "https://github.com/qaisma/SahenUI/assets/fonts/fonts.scss": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "https://github.com/qaisma/SahenUI/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://github.com/qaisma/SahenUI/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://github.com/qaisma/SahenUI/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://github.com/qaisma/SahenUI/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://github.com/qaisma/SahenUI/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://github.com/qaisma/SahenUI/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://github.com/qaisma/SahenUI/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://github.com/qaisma/SahenUI/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://github.com/qaisma/SahenUI/bg2.61d4ace5bcc7f05e.svg": "e71a9a69282ebdd24b896b1191235bb02bc38d85",
+    "https://github.com/qaisma/SahenUI/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://github.com/qaisma/SahenUI/index.html": "7c92958837964310020c0789a983d714c8a63233",
+    "https://github.com/qaisma/SahenUI/main.8a1c9f4977de4363.js": "de4e1783ae14a21eb6219460d419597d1d342dc9",
+    "https://github.com/qaisma/SahenUI/manifest.webmanifest": "10db87372eeb2c7887d57c3d7de8b05039179aef",
+    "https://github.com/qaisma/SahenUI/polyfills.f25762f496b9ff7d.js": "41dff0ad7a9d1e5eb54deb3037d2de0c3408af6d",
+    "https://github.com/qaisma/SahenUI/runtime.24dd46ac31f58b74.js": "8e5de7eeb58f094d25ba4c13ef596d516b8bb124",
+    "https://github.com/qaisma/SahenUI/styles.eda5b4d31715e41b.css": "8deb5c773da9ed5748e8fc09b3e6fb518b666d96"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
