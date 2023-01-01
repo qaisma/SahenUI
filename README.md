@@ -4,4 +4,4 @@
 
 ## ng build --base-href "https://qaisma.github.io/SahenUI/"
 
-## ngh --dir dist/sahen-ui
+## ngh --dir dist/SahenUI
