@@ -1,25 +1,21 @@
-<mat-card class="restaurant-card mat-elevation-z0">
-  <mat-card-title>Ala Restaurante</mat-card-title>
-  <mat-card-content>
-    <mat-accordion class="menu-headers-align">
-      <mat-expansion-panel *ngFor="let menu of menus">
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            {{menu.name}}
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-        <div class="menu-items-container">
-          <div class="menu-item" *ngFor="let menuItem of menu.menuItems" routerLink="/menu-item/{{menuItem.id}}" routerLinkActive="active">
-            <h3 class="menu-item-name">{{menuItem.name}}</h3>
-            <img src="{{menuItem.imageUrl}}" alt="{{menuItem.name}}" class="menu-item-img">
-            <p class="menu-item-discription">{{menuItem.description}}</p>
-            <div class="menu-item-price">
-              <div>AED</div>
-              <strong>{{menuItem.price}}</strong>
-            </div>
-          </div>
+<mat-accordion class="menu-headers-align">
+  <mat-expansion-panel *ngFor="let menu of menus">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{menu.name}}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div class="menu-items-container">
+      <div class="menu-item" *ngFor="let menuItem of menu.menuItems" routerLink="/menu-item/{{menuItem.id}}"
+        routerLinkActive="active">
+        <h3 class="menu-item-name">{{menuItem.name}}</h3>
+        <img src="{{menuItem.imageUrl}}" alt="{{menuItem.name}}" class="menu-item-img">
+        <p class="menu-item-discription">{{menuItem.description}}</p>
+        <div class="menu-item-price">
+          <div>AED</div>
+          <strong>{{menuItem.price}}</strong>
         </div>
-      </mat-expansion-panel>
-    </mat-accordion>
-  </mat-card-content>
-</mat-card>
+      </div>
+    </div>
+  </mat-expansion-panel>
+</mat-accordion>

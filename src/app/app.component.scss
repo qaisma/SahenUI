@@ -1,0 +1,15 @@
+.main-card {
+    padding: 0;
+    width: 100%;
+    border-radius: 0;
+
+    .mat-card-title {
+        height: 4em;
+        padding-top: 1em;
+        background-color: #2196f333;
+        border-radius: 0 0 40px;
+        h1 {
+            text-align: center;
+        }
+    }
+}
