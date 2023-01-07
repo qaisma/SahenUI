@@ -1,5 +1,5 @@
 <mat-accordion class="menu-headers-align">
-  <mat-expansion-panel *ngFor="let menu of menus">
+  <mat-expansion-panel *ngFor="let menu of menus; index as i" [expanded]="i==0">
     <mat-expansion-panel-header>
       <mat-panel-title>
         {{menu.name}}

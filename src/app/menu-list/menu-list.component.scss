@@ -1,6 +1,7 @@
-.restaurant-card{
+.restaurant-card {
   padding: 5px;
-  .mat-card-title{
+
+  .mat-card-title {
     padding: 0.5em;
     text-align: center;
     margin-bottom: 1em;
@@ -38,9 +39,15 @@
     float: left;
     width: 20%;
     text-align: right;
-    strong{
+
+    strong {
       display: block;
       color: orange;
     }
   }
+}
+
+.mat-expansion-panel-header-title {
+  font-size: 20pt;
+  line-height: 20pt;
 }
