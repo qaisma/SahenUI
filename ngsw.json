@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1673002369135,
+  "timestamp": 1673101033331,
   "index": "https://qaisma.github.io/SahenUI/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://qaisma.github.io/SahenUI/favicon.ico",
         "https://qaisma.github.io/SahenUI/index.html",
-        "https://qaisma.github.io/SahenUI/main.925e0bd69c0c52bb.js",
+        "https://qaisma.github.io/SahenUI/main.92c8a201e75a71b3.js",
         "https://qaisma.github.io/SahenUI/manifest.webmanifest",
         "https://qaisma.github.io/SahenUI/polyfills.f25762f496b9ff7d.js",
         "https://qaisma.github.io/SahenUI/runtime.24dd46ac31f58b74.js",
@@ -57,6 +57,10 @@
         "https://qaisma.github.io/SahenUI/assets/icons/icon-512x512.png",
         "https://qaisma.github.io/SahenUI/assets/icons/icon-72x72.png",
         "https://qaisma.github.io/SahenUI/assets/icons/icon-96x96.png",
+        "https://qaisma.github.io/SahenUI/assets/logo/emb.png",
+        "https://qaisma.github.io/SahenUI/assets/logo/emb.psd",
+        "https://qaisma.github.io/SahenUI/assets/logo/logo.png",
+        "https://qaisma.github.io/SahenUI/assets/logo/logo.psd",
         "https://qaisma.github.io/SahenUI/bg2.61d4ace5bcc7f05e.svg"
       ],
       "patterns": []
@@ -92,10 +96,14 @@
     "https://qaisma.github.io/SahenUI/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://qaisma.github.io/SahenUI/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://qaisma.github.io/SahenUI/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://qaisma.github.io/SahenUI/assets/logo/emb.png": "4faea9dcc2eccdb2fc610ecefe748c021f76492d",
+    "https://qaisma.github.io/SahenUI/assets/logo/emb.psd": "0190c1cad8734072b3c7539c7985c25075de80cb",
+    "https://qaisma.github.io/SahenUI/assets/logo/logo.png": "72ce8ef6bad742fb58e91c7518636102c8feee41",
+    "https://qaisma.github.io/SahenUI/assets/logo/logo.psd": "91d9d4d56235646cf6c0c3658aeaad572a2d89f1",
     "https://qaisma.github.io/SahenUI/bg2.61d4ace5bcc7f05e.svg": "e71a9a69282ebdd24b896b1191235bb02bc38d85",
-    "https://qaisma.github.io/SahenUI/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://qaisma.github.io/SahenUI/index.html": "17ee13bf20a4fe353f7f4d4d14c5be4edd35493a",
-    "https://qaisma.github.io/SahenUI/main.925e0bd69c0c52bb.js": "49b9ed111a26421ae3333a6f91e9420fc43c8e61",
+    "https://qaisma.github.io/SahenUI/favicon.ico": "db17ffff73dce97dd1063c2da3b5ead8f294dda5",
+    "https://qaisma.github.io/SahenUI/index.html": "23f637087ee477b8d2df9103ef3a40b0d7e7c633",
+    "https://qaisma.github.io/SahenUI/main.92c8a201e75a71b3.js": "78220b219b66abf95bfe9b3e3e871f30aa265dc4",
     "https://qaisma.github.io/SahenUI/manifest.webmanifest": "10db87372eeb2c7887d57c3d7de8b05039179aef",
     "https://qaisma.github.io/SahenUI/polyfills.f25762f496b9ff7d.js": "41dff0ad7a9d1e5eb54deb3037d2de0c3408af6d",
     "https://qaisma.github.io/SahenUI/runtime.24dd46ac31f58b74.js": "8e5de7eeb58f094d25ba4c13ef596d516b8bb124",
