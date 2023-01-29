@@ -14,6 +14,5 @@ body {
     }
 }
 
-* {
-    font-family: DubaiFont, "Helvetica Neue", sans-serif !important;
-}
+html, body { height: 100%; }
+body { margin: 0; font-family: DubaiFont, Roboto, "Helvetica Neue", sans-serif; }

@@ -1,24 +1,22 @@
 .main-card {
-    padding: 0;
-    width: 100%;
-    border-radius: 0;
+  padding: 0;
+  width: 100%;
+  border-radius: 0;
 
-    .mat-card-title {
-        height: 4em;
-        padding-top: 1em;
-        background-color: #2196f333;
-        border-radius: 0 0 40px;
+  .mat-card-header {
+    text-align: center;
 
-        h1 {
-            text-align: center;
-            font-size: 30pt;
-            margin-top: 0.5em;
-        }
-
+    .mat-card-header-text {
+      .mat-card-subtitle {
         img {
-            width: 30%;
-            padding-left: 1em;
-            opacity: 0.3;
+          width: 40%;
         }
+      }
     }
+
+  }
+}
+
+.full-width {
+  width: 100%;
 }

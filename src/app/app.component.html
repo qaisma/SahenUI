@@ -1,9 +1,11 @@
 <mat-card class="main-card">
-    <mat-card-title>
-        <img src="../assets/logo/logo.png">
-        <h1>Ala' Restaurante</h1>
-    </mat-card-title>
-    <mat-card-content>
-        <router-outlet></router-outlet>
-    </mat-card-content>
+  <mat-card-header>
+    <mat-card-subtitle>
+      <img [src]="logoPath">
+    </mat-card-subtitle>
+    <mat-card-title>{{title}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <router-outlet></router-outlet>
+  </mat-card-content>
 </mat-card>

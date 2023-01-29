@@ -11,8 +11,11 @@ import { MenuService } from '../services/menu.service';
 export class MenuListComponent implements OnInit {
 
   restaurantId: string = 'cdabbce6-e332-4267-8e48-5a9f9d421290';
-  menus: Array<Menu> = [];
+  allMenus: Array<Menu> = [];
+  filteredMenus: Array<Menu> = [];
   menuIndex: number = 0;
+
+  searchFilter = ""
 
   constructor(
     private _route: ActivatedRoute,
@@ -29,15 +32,48 @@ export class MenuListComponent implements OnInit {
 
   private _getReatuarantMenus() {
     this._menuService.getMenusByRestuarantId(this.restaurantId).subscribe(menus => {
-      this.menus = menus.filter(m => m.menuItems && m.menuItems.length > 0);
+      this.allMenus = menus.filter(m => m.menuItems && m.menuItems.length > 0);
+      this.resetFilter();
     });
+  }
+
+  resetFilter() {
+    this.searchFilter = '';
+    this.filteredMenus = this._clone(this.allMenus);
   }
 
   setStep(index: number) {
     this.menuIndex = index;
   }
 
-  goToMenuItem(menuItem: Menu): void {
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    if (!filterValue || filterValue == '') {
+      this.resetFilter();
+      return;
+    }
+    this.filteredMenus = this._clone(this.allMenus);
+    this.filteredMenus.filter(m =>
+      m.menuItems.some(mi =>
+        mi.name.toLowerCase().includes(filterValue.trim().toLowerCase())
+        ||
+        mi.description.toLowerCase().includes(filterValue.trim().toLowerCase())
+      )
+    );
 
+    this.filteredMenus.forEach(m =>
+      m.menuItems = m.menuItems.filter(mi =>
+        mi.isEnabled =
+        mi.name.toLowerCase().includes(filterValue.trim().toLowerCase())
+        ||
+        mi.description.toLowerCase().includes(filterValue.trim().toLowerCase())
+      )
+    );
+  }
+
+  private _clone(original: Array<any>): Array<any> {
+    const clonedArray: Array<any> = [];
+    original.forEach(val => clonedArray.push(Object.assign({}, val)));
+    return clonedArray;
   }
 }

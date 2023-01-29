@@ -51,3 +51,11 @@
   font-size: 20pt;
   line-height: 20pt;
 }
+
+.seach-container {
+  width: 100%;
+  text-align: center;
+  .search-control {
+    width: 90%;
+  }
+}

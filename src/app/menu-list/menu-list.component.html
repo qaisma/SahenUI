@@ -1,5 +1,13 @@
+<div class="seach-container">
+  <mat-form-field class="search-control">
+    <input type="text" matInput [(ngModel)]="searchFilter" placeholder="Search" (keyup)="applyFilter($event)">
+    <button *ngIf="searchFilter" matSuffix mat-icon-button aria-label="Clear" (click)="resetFilter()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-form-field>
+</div>
 <mat-accordion class="menu-headers-align">
-  <mat-expansion-panel *ngFor="let menu of menus; index as i" [expanded]="i==0">
+  <mat-expansion-panel *ngFor="let menu of filteredMenus; index as i" [expanded]="i==0">
     <mat-expansion-panel-header>
       <mat-panel-title>
         {{menu.name}}
